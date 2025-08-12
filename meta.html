@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>s01system</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <p class="logo">
+        <span data-js-logo-row-1>███████▓▓▓▓▓▓▒▒▒▒</span>
+        <span data-js-logo-row-2>███▓▓▓▓▓▓▒▒▒▒▒▒░░</span>
+        <span data-js-logo-row-3>▓▓▓▓▓▒▒▒▒▒▒▒░░░░░</span>
+        s 0 1 s y s t e m
+      </p>
+
+      <article>
+        <h1>Meta</h1>
+
+        <p>
+          This document is a quick sketch of the design goals of s0lsystem. It
+          is shallowly researched, and is not intended to be a definitive
+          document. Rather, it is a starting point for discussion and
+          experimentation.
+        </p>
+
+        <p>We start here, and see where it takes us.</p>
+
+        <br />
+        <p>on y va</p>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+
+        <h2>Core constraints</h2>
+
+        <ul>
+          <li>Keep file sizes small to minimize data transfer.</li>
+          <li>
+            Simple layouts and fewer effects, animations, etc. for lighter
+            CPU/GPU load.
+          </li>
+          <li>Host on green energy and/or with carbon footprint offsets.</li>
+        </ul>
+
+        <h2>Design</h2>
+
+        <ul>
+          <li>More text than images.</li>
+          <li>
+            Replace images with CSS shapes or ASCII-art as much as possible.
+          </li>
+          <li>
+            Compress
+            <i>all</i>
+            images.
+          </li>
+          <li>Dark leaning color palette for lower OLED energy usage.</li>
+          <li>No gradients, for less power consumption.</li>
+          <li>
+            As few videos as possible. Replace with series of images whenever
+            possible.
+          </li>
+          <li>System fonts only to not download additional fonts.</li>
+        </ul>
+
+        <h2>Technical implementation</h2>
+
+        <ul>
+          <li>
+            Raw HTML/CSS or a static site generator (Eleventy/Jekyll) to avoid
+            server side processing.
+          </li>
+          <li>As little JS as possible.</li>
+          <li>Keep HTML semantic and terse.</li>
+          <li>No tracking, analytics or ads.</li>
+          <li>
+            Test with
+            <a href="https://www.websitecarbon.com/" target="_blank">
+              Website Carbon Calculator
+            </a>
+            .
+          </li>
+          <li>Aim for &lt;50kb total page weight.</li>
+          <li>
+            Check load time and request count with
+            <a href="https://www.webpagetest.org/" target="_blank">
+              WebPageTest
+            </a>
+            .
+          </li>
+        </ul>
+
+        <h2>Hosting</h2>
+
+        <ul>
+          <li>
+            Find a host from the
+            <a
+              href="https://www.thegreenwebfoundation.org/tools/directory/"
+              target="_blank"
+            >
+              Green Web Foundation
+            </a>
+            , or host on Duncan's server that runs on clean energy?
+          </li>
+          <li>Serve via a global CDN to reduce long distance data transfer.</li>
+          <li>Aggressive caching.</li>
+        </ul>
+
+        <h2>Inspiration</h2>
+
+        <ul>
+          <li>
+            <a
+              href="https://wiki.xxiivv.com/site/permacomputing.html"
+              target="_blank"
+            >
+              Permacomputing
+            </a>
+          </li>
+          <li>
+            <a href="https://permacomputing.net/" target="_blank">
+              Permacomputing Wiki
+            </a>
+          </li>
+          <li>
+            <a href="https://solar.lowtechmagazine.com/" target="_blank">
+              Low-Tech Magazine
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://limits.pubpub.org/pub/6loh1eqi/release/1"
+              target="_blank"
+            >
+              Computing within limits
+            </a>
+          </li>
+        </ul>
+      </article>
+
+      <footer>
+        <a href="index.html">home</a>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
