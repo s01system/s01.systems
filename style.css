@@ -152,7 +152,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3em;
+    padding: 3em 1em;
 }
 
 .logo {
