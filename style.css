@@ -181,3 +181,8 @@ footer {
 a:hover {
     background-color: var(--color-1);
 }
+
+.profile-img {
+    mix-blend-mode: difference;
+    margin-top: 40px;
+}
